@@ -13,7 +13,7 @@ Then, depending on your needs:
 
 ## 2. Installation
 
-* First, you need to setting up Python3. After running Kali Linux, you turn on the terminal and execute the following:
+* First, you need to setting up Python3. After running Kali Linux, turn on the terminal and execute the following:
 
   **sudo apt update**
   
