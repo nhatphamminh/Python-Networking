@@ -1,35 +1,52 @@
-## CREATE A TCP CLIENT
-> This version requires **Python 2.9** or above, ideally make sure your devices support **Python 3**
+# CREATE A TCP CLIENT
+
+> **Note:** This project requires **Python 3** (Python 3.6 or above is recommended). Please make sure your device supports it.
 
 ## 1. Prerequisites
 
-* To create a **tcp client**, first you have to run a **virtual machine** and setting an enviroment for it.
-You can download VMware at the link: https://www.vmware.com/. 
+To create a TCP client, you first need to set up a virtual machine environment. 
+You can download VMware from their official website: [https://www.vmware.com/](https://www.vmware.com/)
 
-Then, depending on your needs:
-* If you want to run **Kali Linux** in a virtual machine, go to: https://www.kali.org/get-kali/#kali-virtual-machines and download the version for VMware.
-* If you want to run **Ubuntu or other operating systems**, just go to their official websites and download the suitable version for VMware.
-> Make sure your disks have enough space for one opertaing systems and the memmory required is **2GB**
+Then, depending on your needs, choose an operating system:
+* For **Kali Linux**: Go to the [Kali Linux VMware download page](https://www.kali.org/get-kali/#kali-virtual-machines) and download the pre-built VM version.
+* For **Ubuntu or other OS**: Visit their official websites and download the suitable ISO or virtual machine image.
 
-## 2. Installation
+> **Hardware Requirement:** Make sure your host machine has enough disk space for the operating system and at least **2GB of RAM** allocated for the virtual machine.
 
-* First, you need to setting up **Python3**. After running Kali Linux, turn on **terminal** and execute the following:
+## 2. Installation & Environment Setup
 
-  **sudo apt update**
-  
-  **sudo apt upgrade**
-  
-  **sudo apt dist upgrade**
-  
-  **sudo apt autoremove**
-  > Each step required a bit of time, so you rather have a coffee while waiting it
+### Update System
+First, update your Kali Linux system. Open the terminal and run the following commands sequentially:
 
-Then, you type in ```sudo apt get-upgrade python3``` and ```sudo apt-get install python3-venv```
-* Now, you can create an environment. Let's make new directory to work and create the environment
-* In the new terminal, you type in ```mkdir hello``` to generate new directory, then types ```cd hello```
+```bash
+sudo apt update
+sudo apt upgrade -y
+sudo apt dist-upgrade -y
+sudo apt autoremove -y
+```
+> *Each step requires a bit of time, so you might want to grab a coffee while waiting!* ☕
 
-Now, you have created a directory and jump into it, its time to install and IDE, followings these steps
- Type in ```apt-get install code``` or to get the latest version of VSCode ```apt-get install -f./code_1.39.2-1571154070_amd64.deb```
+### Install Python 3
+Ensure Python 3 and the virtual environment package are installed on your system:
 
+```bash
+sudo apt install python3 python3-venv -y
+```
 
-  
+### Create a Workspace
+Now, let's make a new directory for your project and navigate into it:
+
+```bash
+mkdir tcp_client_project
+cd tcp_client_project
+```
+
+### Install an IDE (VS Code)
+It's time to install an IDE to write your code. The easiest way to get the latest version of Visual Studio Code on Kali Linux is to download the `.deb` package from the [official VS Code website](https://code.visualstudio.com/). 
+
+After downloading, run this command in the terminal (make sure you are in the folder where the file was downloaded):
+
+```bash
+sudo apt install ./<downloaded_file_name>.deb
+```
+*(Remember to replace `<downloaded_file_name>.deb` with the actual name of the file you just downloaded).*
