@@ -13,7 +13,7 @@ Then, depending on your needs:
 
 ## 2. Installation
 
-* First, you need to setting up Python3. After running Kali Linux, turn on the terminal and execute the following:
+* First, you need to setting up **Python3**. After running Kali Linux, turn on **terminal** and execute the following:
 
   **sudo apt update**
   
@@ -24,7 +24,12 @@ Then, depending on your needs:
   **sudo apt autoremove**
   > Each step required a bit of time, so you rather have a coffee while waiting it
 
-Then, you type in ```sudo apt get-upgrade python3```
+Then, you type in ```sudo apt get-upgrade python3``` and ```sudo apt-get install python3-venv```
+* Now, you can create an environment. Let's make new directory to work and create the environment
+* In the new terminal, you type in ```mkdir hello``` to generate new directory, then types ```cd hello```
+
+Now, you have created a directory and jump into it, its time to install and IDE, followings these steps
+ Type in ```apt-get install code``` or to get the latest version of VSCode ```apt-get install -f./code_1.39.2-1571154070_amd64.deb```
 
 
   
