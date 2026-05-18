@@ -1,5 +1,8 @@
 CREATE A TCP CLIENT
 -
+## 1. Prerequisites
+
+* To create a **tcp client**, first you have to run a **virtual machine** and setting an enviroment for it.
 You can download VMware at the link: https://www.vmware.com/. 
 
 Then, depending on your needs:
