@@ -50,3 +50,7 @@ After downloading, run this command in the terminal (make sure you are in the fo
 sudo apt install ./<downloaded_file_name>.deb
 ```
 *(Remember to replace `<downloaded_file_name>.deb` with the actual name of the file you just downloaded).*
+
+## 3. Usage
+* Following the code in the file i have uploaded
+> if you do not know where exactly it is, just followed the tree below
