@@ -52,5 +52,12 @@ sudo apt install ./<downloaded_file_name>.deb
 *(Remember to replace `<downloaded_file_name>.deb` with the actual name of the file you just downloaded).*
 
 ## 3. Usage
-* Following the code in the file i have uploaded
-> if you do not know where exactly it is, just followed the tree below
+* You can find the file ```tcp_client.py``` that i have posted and run it in your own
+> If you do not know where the file at, follow the instruction below
+## Repository Structure
+* Below is the directory tree showing where the file is located
+
+```text
+Python-Networking/       # my repository
+├── README.md            # README
+└── tcp_client.py        # you should look at here!
