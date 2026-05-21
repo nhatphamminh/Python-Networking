@@ -61,4 +61,4 @@ sudo apt install ./<downloaded_file_name>.deb
 Python-Networking/       # my repository
 ├── README.md            # README
 |
-└── tcp_client.py        # you should look at here!
+└── tcp_client.py        # you should begin at here!
