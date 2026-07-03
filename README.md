@@ -1,6 +1,6 @@
 # CREATE A TCP CLIENT          
 
-> **Note:** This project requires **Python 3** (Python 3.6 or above is recommended). Please make sure your device supports it.
+> **Note:** This project requires **Python 3** (Python 3.6 or above is recommended). Please make sure your device supports it. 
 
 ## 1. Prerequisites
  
