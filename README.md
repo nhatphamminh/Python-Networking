@@ -21,7 +21,7 @@ First, update your Kali Linux system. Open the terminal and run the following co
 ```bash
 sudo apt update
 sudo apt upgrade -y
-sudo apt dist-upgrade -y
+sudo apt dist-upgrade -y 
 sudo apt autoremove -y
 ```
 > *Each step requires a bit of time, so you might want to grab a coffee while waiting!* ☕
