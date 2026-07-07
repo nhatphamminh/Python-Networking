@@ -2,7 +2,7 @@
 
 > **Note:** This project requires **Python 3** (Python 3.6 or above is recommended). Please make sure your device supports it. 
 
-## 1. Prerequisites
+## 1. Prerequisites    
  
 To create a TCP client, you first need to set up a virtual machine environment. 
 You can download VMware from their official website: [https://www.vmware.com/](https://www.vmware.com/)
