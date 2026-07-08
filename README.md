@@ -6,7 +6,7 @@
  
 To create a TCP client, you first need to set up a virtual machine environment. 
 You can download VMware from their official website: [https://www.vmware.com/](https://www.vmware.com/)
-
+ 
 Then, depending on your needs, choose an operating system:
 * For **Kali Linux**: Go to the [Kali Linux VMware download page](https://www.kali.org/get-kali/#kali-virtual-machines) and download the pre-built VM version.
 * For **Ubuntu or other OS**: Visit their official websites and download the suitable ISO or virtual machine image.
